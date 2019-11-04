@@ -126,8 +126,8 @@ def boost_deps():
             name = "boost",
             build_file = "@com_github_nelhage_rules_boost//:BUILD.boost",
             sha256 = "da3411ea45622579d419bfda66f45cd0f8c32a181d84adfa936f5688388995cf",
-            strip_prefix = "boost_1_68_0",
+            strip_prefix = "boost_1_69_0",
             urls = [
-                "https://dl.bintray.com/boostorg/release/1.68.0/source/boost_1_68_0.tar.gz"
+                "https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.tar.gz"
             ],
         )
